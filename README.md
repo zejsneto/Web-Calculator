@@ -7,7 +7,7 @@ A working calculator developed using HTML, CSS and JavaScript.
 ---
 
 ## 👁️‍🗨️ Preview
-Link: [View Demo](https://zejsneto.github.io/Web-Calculator)<br>
+Link: [View Demo](https://zejsneto.github.io/Web-Calculator/index)<br>
 
 ---
 
