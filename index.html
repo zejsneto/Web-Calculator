@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicons/favicon.png">
+
+    <!-- Main JS -->
+    <script src="./js/script.js" defer></script>
+
+    <title>Web Calculator</title>
+</head>
+<body>
+    <div class="background">
+        <div class="calculator">
+
+            <h1>Calculator</h1>
+            <p id="result"></p>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="clean()">C</button></td>
+                    <td><button class="button" onclick="erase()">&lt;</button></td>
+                    <td><button class="button" onclick="insert('/')">/</button></td>
+                    <td><button class="button" onclick="insert('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button></td>
+                    <td><button class="button" onclick="insert('9')">9</button></td>
+                    <td><button class="button" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('4')">4</button></td>
+                    <td><button class="button" onclick="insert('5')">5</button></td>
+                    <td><button class="button" onclick="insert('6')">6</button></td>
+                    <td><button class="button" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('1')">1</button></td>
+                    <td><button class="button" onclick="insert('2')">2</button></td>
+                    <td><button class="button" onclick="insert('3')">3</button></td>
+                    <td rowspan="2"><button class="button" onclick="calculate()" style="height: 106px;">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="button" onclick="insert('0')" style="width: 106px;">0</button></td>
+                    <td><button class="button" onclick="insert('.')">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="text">
+        <h2>Made by @zejsneto</h2>
+        <p>
+            <br>
+            <a href="https://github.com/zejsneto">
+                <img  src="https://img.shields.io/badge/-zejsneto-05122A?style=flat&logo=github"/>
+            </a>
+            <a href="https://linkedin.com/in/zejsneto">
+                 <img  src="https://img.shields.io/badge/-zejsneto-05122A?style=flat&logo=linkedin"/>
+            </a>
+            <a href="https://twitter.com/zejsneto"">
+                 <img  src="https://img.shields.io/badge/-zejsneto-05122A?style=flat&logo=twitter"/>  
+            </a>
+            <a href="https://instagram.com/zejsneto">
+                <img  src="https://img.shields.io/badge/-zejsneto-05122A?style=flat&logo=instagram"/>
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>
