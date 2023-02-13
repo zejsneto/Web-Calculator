@@ -4,10 +4,14 @@
 
 A working calculator developed using HTML, CSS and JavaScript.
 
+Link: [View Demo](https://zejsneto.github.io/Web-Calculator/index)<br>
+
 ---
 
 ## 👁️‍🗨️ Preview
-Link: [View Demo](https://zejsneto.github.io/Web-Calculator/index)<br>
+<p align="center" >
+  <img width="70%" src="/repository-imgs/img01.png" />
+</p>
 
 ---
 
